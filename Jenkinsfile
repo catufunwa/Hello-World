@@ -1,6 +1,7 @@
 node {
     stage 'Checkout'
-    checkout git
+    echo "Checking out"
+    sleep 3
 
     stage 'Build'
     sleep 5
